@@ -1,0 +1,133 @@
+* { /* RESET */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.header-container {
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0px 30px; 
+}
+
+.header-logo {
+    font-weight: bold; 
+}
+
+.header-options {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.header-options {
+    display: flex;
+    justify-content: flex-end; 
+    text-decoration: none;
+    align-items: center; 
+    gap: 30px; 
+}
+
+
+.header-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+.header-option {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+    
+}
+
+
+.header-button:hover {
+    background-color: #3399ff;
+}
+
+.header-option:hover {
+    color: #333344; /* Cambia el color al hacer hover */
+}
+
+
+
+
+
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parrafoMain-1 {
+        font-size: 18px;
+        margin: 10px 0px;
+        font-family: 'Inter', sans-serif;
+        padding: 0px 357px;
+        
+    
+}
+
+.parrafoMain-2 {
+    font-size: 18px;
+    margin: 10px 0px;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 200px;
+
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #3399ff;
+}
+
+
+.imagen-1 img {
+    width: 100%;
+    
+}
